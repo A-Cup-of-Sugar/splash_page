@@ -10,7 +10,7 @@
 @fontSmoothing     : antialiased;
 
 @headerFont        : 'G', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Interface', 'Roboto', Arial, Helvetica, sans-serif;
+@pageFont          : 'G', 'Roboto', Arial, Helvetica, sans-serif;
 @fontName: 'Roboto';
 @googleFontName    : @fontName;
 @importGoogleFonts : true;
@@ -66,8 +66,8 @@
 @headerLineHeight : unit((20 / 16), em);
 
 @h1 : unit((80 / 16), rem);
-@h2 : unit((28 / 16), rem);
-@h3 : unit((60 / 16), rem);
+@h2 : unit((48 / 16), rem);
+@h3 : unit((64 / 16), rem);
 @h4 : unit((20 / 16), rem);
 @h5 : unit((16 / 16), rem);
 
