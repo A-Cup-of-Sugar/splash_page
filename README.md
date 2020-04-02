@@ -1,58 +1,68 @@
-<p align="center">
-    <img src="https://react.semantic-ui.com/logo.png" alt="Semantic UI React logo" align="center">
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<h1 align="center">Gatsby 2 Semantic UI Starter</h1>
+## Available Scripts
 
-**NOTE: This project is not officially associated with Semantic UI, Facebook and/or Gatsby in any way. It is just a helpful boilerplate arranged by me.**
+In the project directory, you can run:
 
-## Introduction
+### `yarn start`
 
-This is a boilerplate project that intends to provide an easy way to setup [Gatsby](https://www.gatsbyjs.org/) with a customizable version of [Semantic UI](https://semantic-ui.com/), as this process is usually clumsy and full of little inconveniences.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-It is based on the [Webpack 3 example](https://github.com/Semantic-Org/Semantic-UI-React/tree/master/examples/webpack3) provided by the Semantic UI folks, with a bunch of opinionated changes.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## How to use
+### `yarn test`
 
-### Installation
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**NOTE: This starter is intended for use with Gatsby 2.0.0 and above.**
+### `yarn build`
 
-Make sure that you have the Gatsby CLI program installed  
-`yarn global add gatsby-cli@next` (**npm:** `npm install --global gatsby-cli@next`)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Now run from your terminal  
-`gatsby new my-project https://github.com/pretzelhands/gatsby-starter-semantic-ui`
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Then you can run it by doing the following  
-```sh
-cd my-project
-gatsby develop
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Gatsby will start up a web server for you and you are ready to go.
+### `yarn eject`
 
-If you've never worked with Gatsby before, I recommend [reading the documentation](https://next.gatsbyjs.org/docs/)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Customizing Semantic UI
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-To customize Semantic UI you can find the appropriate files in `src/semantic/site`. To understand the file structure provided in that folder, please read the [Customization Guide](http://learnsemantic.com/developing/customizing.html) provided by Semantic UI.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-The theme files are pre-filled with all available variables so you can just set them and forget them. As you save those files Gatsby will automatically re-compile your files.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Contributing
+## Learn More
 
-Contributions in any form are welcome! If you find a bug, please [file an issue.](https://github.com/pretzelhands/gatsby-starter-semantic-ui/issues) All contributors are asked to abide by the rules of the [Contributor Covenant.](./CODE_OF_CONDUCT.md)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Updates
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This repo will be kept up-to-date in accordance with the stable releases of React, Gatsby, Semantic UI and Semantic UI React insofar they are compatible.
+### Code Splitting
 
-If major changes happen to the Webpack 3 example of the Semantic UI React repository, I will reflect them in this repository.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## License
+### Analyzing the Bundle Size
 
-This project is licensed under the ISC license. See the [LICENSE file](./LICENSE.md) for more details.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+### Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

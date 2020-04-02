@@ -1,59 +1,36 @@
 {
-  "name": "garrett-vercoe-portfolio",
-  "description": "Garrett Vercoe: Maker",
-  "version": "1.0.0",
-  "author": "Garrett Vercoe <hello@garrettvercoe.com>",
+  "name": "landing",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "gatsby": "^2.0.77",
-    "gatsby-image": "^2.0.25",
-    "gatsby-plugin-catch-links": "^2.0.8",
-    "gatsby-plugin-favicon": "^3.1.5",
-    "gatsby-plugin-layout": "^1.0.11",
-    "gatsby-plugin-less": "^2.0.0-beta.5",
-    "gatsby-plugin-mailchimp": "^4.0.0",
-    "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-sharp": "^2.0.15",
-    "gatsby-remark-component": "^1.1.3",
-    "gatsby-remark-copy-linked-files": "^2.0.8",
-    "gatsby-remark-images": "^3.0.1",
-    "gatsby-remark-prismjs": "^3.1.4",
-    "gatsby-remark-responsive-iframe": "^2.0.7",
-    "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-remark": "^2.1.17",
-    "gatsby-transformer-sharp": "^2.1.9",
-    "less": "^3.8.1",
-    "prismjs": "^1.15.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0",
-    "react-media": "^1.8.0",
-    "react-pose": "^4.0.4",
-    "react-transition-group": "^2.5.2",
-    "rehype-react": "^3.1.0",
-    "semantic-ui-less": "^2.3.3",
-    "semantic-ui-react": "^0.82.1"
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "ISC",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.13.7"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pretzelhands/gatsby-starter-semantic-ui.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pretzelhands/gatsby-starter-semantic-ui/issues"
-  },
-  "homepage": "https://github.com/pretzelhands/gatsby-starter-semantic-ui#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
